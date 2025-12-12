@@ -1,0 +1,335 @@
+#title {
+  background-color: #1d351c;
+  padding-bottom: 40px;
+}
+
+h1.titleheader {
+  font-family: "Zeyada", cursive;
+  font-weight: normal;
+  font-size: 100px;
+  color: rgb(244, 244, 200);
+}
+
+div.container {
+  padding: 3% 15%;
+}
+
+button.download-button {
+  margin: 3%;
+}
+
+/*Navigation Bar*/
+.navbar-brand {
+  font-family: "Zeyada", cursive;
+  font-size: 30px;
+}
+
+.navbar {
+  padding: 4.5rem;
+  padding-top: 0;
+  padding-left: 3%;
+  padding-right: 5%;
+}
+
+.navbar-nav {
+  padding-left: 40%;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-item a {
+  font-family: "National Park", sans-serif;
+}
+
+.nav-link {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.dropdown-menu a {
+  font-family: "National Park", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(240, 240, 230);
+}
+
+/*Title Image*/
+
+#barrier1 {
+  background-color: black;
+  padding: 40px 0 20px 0;
+}
+
+/*Features*/
+
+#features {
+  background-image: url(../images/hobbymisc/loceanograficbanner.png);
+  background-position: center;
+  background-size: 1000px;
+}
+
+div.containerfeatures {
+  padding: 2%;
+}
+
+div.containerfeatures h3 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 45% 0 40%;
+  width: 15%;
+}
+
+p.features {
+  font-size: 110%;
+}
+
+/*Testimonials*/
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-image: linear-gradient(to bottom, lightpink, lightpink, #8fdbf2);
+}
+
+h2 {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*Testimonials Image*/
+
+img.testimonial-image {
+  border-radius: 50%;
+  border-width: 10%;
+  margin: 10px;
+}
+
+#press {
+  background-color: #8fdbf2;
+  text-align: center;
+  padding: 50px;
+}
+
+img.press-image {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-item {
+  padding-bottom: 7%;
+  padding-top: 7%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.carousel-inner {
+  background-color: lightpink;
+}
+
+/* Pricing Selection*/
+
+#pricing {
+  padding: 100px;
+  background-color: #8fdbf2;
+}
+
+.card-header {
+  color: black;
+}
+
+.card-body {
+  color: black;
+}
+
+/*Call to Action*/
+
+#cta {
+  background-color: #8fdbf2;
+  color: black;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
+}
+
+.ctabtn:hover {
+  background-color: black;
+  color: white;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+/* student works page */
+
+.studentworkbody {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zeyada", cursive;
+  background-color: #1d351c;
+}
+
+.gallerycontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px 20px 0 20px;
+}
+
+.gallerycontainer .heading h3 {
+  border-bottom: 3px solid rgb(244, 244, 200);
+  color: rgb(244, 244, 200);
+}
+
+.gallerycontainer .gallerybox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.gallerycontainer .gallerybox .galleryimage {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.gallerycontainer .gallerybox .galleryimage img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.gallerycontainer .topbtn {
+  margin: 40px 0 70px 0;
+  color: rgb(240, 240, 230);
+}
+
+/* Footer/Bottom CTA */
+
+#cta {
+  background-color: #1d351c;
+}
+
+footer {
+  background-color: #375936;
+}
+
+/* buttons */
+
+.ctabtn {
+  background-color: #375936;
+  font-family: "Roboto Flex", sans-serif;
+  border-radius: 6px;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+}
+
+.ctabtncopy {
+  background-color: #375936;
+  font-family: "Roboto Flex", sans-serif;
+  border-radius: 6px;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+}
+
+.ctabtncopy:active {
+  background-color: #1d351c;
+}
+
+.ctabtn:active {
+  background-color: #1d351c;
+}
+
+.ctabtn:disabled {
+  cursor: not-allowed;
+}
+
+/* About page */
+
+.about-col .about-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.resume-link {
+  font-family: "Coiny", system-ui;
+  color: pink;
+}
+
+.resume-link a:hover {
+  color: rgb(244, 244, 200);
+}
+
+.resumediv .resume-btn {
+  margin: 0 50% 0 40%;
+  display: flex;
+  width: 20%;
+}
+
+/* Concept Art pages */
+
+.concept-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px 20px 0 20px;
+}
+
+.concept-container .heading h3 {
+  border-bottom: 3px solid rgb(244, 244, 200);
+  color: rgb(244, 244, 200);
+}
+
+.heading h3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(240, 240, 230);
+}
+
+.concept-container .concept-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.concept-container .concept-box .concept-image {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.concept-container .concept-box .concept-image img {
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
